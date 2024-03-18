@@ -27,16 +27,16 @@ def print_centered(text):
     # Print the text starting from the calculated column
     print(f"❗️" * start_col + " " + red_start + text.upper() + reset + " " + "❗️" * start_col)
 
-def help():
-    print_centered("warning")
-    print("To converter to work fille to convert should be in the same directory what main program \n")
-    print("Give name of a file to concert from csv to json format:")
+# def help():
+#     print_centered("warning")
+#     print("To converter to work fille to convert should be in the same directory what main program \n")
+#     print("Give name of a file to concert from csv to json format:")
 
 # main function
 def main():
-    help()
+    # help()
     file_name=input()
     csv_to_json(file_name)
 
-# if __name__ == '__main__':
+if __name__ == '__main__':
     main()
